@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Stolz';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('Stolz-light.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Stolz';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('Stolz-medium.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Stolz';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('Stolz-book.woff') format("woff");
+}

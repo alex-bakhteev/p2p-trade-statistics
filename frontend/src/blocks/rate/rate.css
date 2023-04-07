@@ -1,0 +1,152 @@
+.rate {
+    display: flex;
+    flex-direction: column;
+}
+
+.rate_basic {
+    margin: 0 100px 0 0;
+}
+
+.rate_main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 80vw;
+}
+
+.rate_header {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto 0;
+    justify-content: center;
+}
+
+.rate_search-field {
+    width: 65vw;
+    height: 28px;
+    margin: 0;
+    border: none;
+}
+
+.rate__buy {
+    max-width: 640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rate__buy-title {
+    margin-top: 20px;
+}
+
+.rate__buy-exchange {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rate__titles {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0;
+}
+
+.rate__title {
+    display: flex;
+    width: 15vw;
+    height: 50px;
+    color: #a3aab8;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid #a3aab8 1px;
+    font-size: 14px;
+}
+
+.rate_title-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.rate__title-purchase {
+    display: flex;
+    width: 350px;
+    height: 50px;
+    color: #a3aab8;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid #a3aab8 1px;
+    font-size: 16px;
+}
+
+.rate__rows {
+    display: flex;
+    margin: 0 auto 0;
+}
+
+.rate__cell {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 15vw;
+    height: 50px;
+    color: black;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+}
+
+.rate_cell-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.rate_cell-result {
+    display: flex;
+    background-color: white;
+    width: 301px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+    margin: 0;
+}
+
+.rate__cell-purchase {
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    color: black;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+}
+
+.rate_button {
+    border: none;
+    background-color: #dee3e6;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.rate_button:hover {
+    opacity: 0.8;
+}
+
+.rate_result {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0;
+}

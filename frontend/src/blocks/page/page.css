@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+a:link {
+    color: #a3aab8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a3aab8;
+}
+
+a:active {
+    color: #a3aab8;
+}
+
+a:focus {
+    color: #a3aab8;
+    text-decoration: underline;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Stolz', sans-serif;
+    color: black;
+}

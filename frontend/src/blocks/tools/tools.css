@@ -1,0 +1,144 @@
+.tools {
+    background-color: #2c2e30;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.tools_helper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    margin: 0 0 20px 0;
+}
+
+.tools_icon-helper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    margin: 20px 0 0 0;
+}
+
+.tools_circle {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+.tools_bitconce {
+    overflow: hidden;
+}
+
+.tools_bitconce-row {
+    display: flex;
+    height: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 10px 50px;
+    cursor: pointer;
+}
+
+.tools_bitconce-row:hover {
+    opacity: 0.5;
+}
+
+.tools_bitconce-image {
+    width: 20px;
+    height: 18px;
+}
+
+.tools_bitconce-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.tools_triangle-image {
+    margin: 15px 0 0 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.tools_tokens {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5px 0;
+}
+
+.tools_profile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tools_button {
+    display: flex;
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    width: 150px;
+    margin: 0 0 20px 30px;
+    cursor: pointer;
+}
+
+.tools_button:hover {
+    opacity: 0.8;
+}
+
+.tools_button-token {
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    width: 100px;
+    margin: 0 0 0 45px;
+    cursor: pointer;
+}
+
+.tools_button-token:hover {
+    opacity: 0.8;
+}
+
+.tools_button-active {
+    color: red;
+}
+
+.tools_token-image {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+}
+
+.tools_exit-image {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 3px;
+}
+
+.tools_relevant-token {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

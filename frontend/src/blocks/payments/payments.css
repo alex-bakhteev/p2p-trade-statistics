@@ -1,0 +1,111 @@
+.payments__selector {
+    width: 120px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
+.payments__insert-label {
+    margin: -25px 0 10px 0;
+}
+
+.payments__main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto 0;
+}
+
+.payments_title {
+    display: flex;
+    width: 12vw;
+    height: 50px;
+    color: #a3aab8;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.payments_title-comment {
+    display: flex;
+    width: 44vw;
+    height: 50px;
+    color: #a3aab8;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+    font-size: 14px;
+}
+
+.payments_cell {
+    display: flex;
+    background-color: white;
+    width: 12vw;
+    height: 50px;
+    padding-bottom: 10px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+}
+
+.payments_cell-comment {
+    display: flex;
+    background-color: white;
+    width: 44vw;
+    padding-bottom: 10px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #a3aab8 1px;
+}
+
+.payments__rows {
+    display: flex;
+    margin: 0 auto 0;
+}
+
+.payments_date {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 25px;
+    margin: 5px 0 0 50px;
+}
+
+.payment__orders {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 30px;
+}
+
+.payments__titles {
+    display: flex;
+    margin: 50px auto 0;
+}
+
+.payments_insert {
+    background: #dee3e6;
+    border: none;
+    border-radius: 10px;
+    margin: 0 40px 0 50px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.payments_insert:hover {
+    opacity: 0.6;
+}
+
+.payments__header-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}

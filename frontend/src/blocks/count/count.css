@@ -1,0 +1,45 @@
+.count__amount {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.count__titles {
+    display: flex;
+    margin: 0;
+}
+
+.count__titles2 {
+    display: flex;
+    margin: 100px 0 0 250px;
+}
+
+.count__title {
+    display: flex;
+    background-color: gainsboro;
+    width: 250px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    font-size: 14px;
+}
+
+.count__rows {
+    display: flex;
+    margin: 0;
+}
+
+.count__cell {
+    display: flex;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
