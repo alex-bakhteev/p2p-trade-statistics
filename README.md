@@ -16,6 +16,4 @@
 * Установить зависимости при помощи (npm - npm i);
 * Запустить в development-режиме (npm run dev);
 
-
-
-**Ссылка на GitHub Pages:** [https://alex-bakhteev.github.io/mesto/].
+**Ссылка на проект:** [https://alex-bakhteev.github.io/mesto/].
