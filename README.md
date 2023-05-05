@@ -15,3 +15,5 @@
 * Скачать или клонировать репозиторий;
 * Установить зависимости при помощи (npm i);
 * Запустить в development-режиме (npm run dev);
+
+**Ссылка на проект:** https://web-service-frontend.onrender.com
